@@ -1,11 +1,11 @@
-# Pruebas de automatización web con Selenium
+# Pruebas de base de datos
 
-Esta carpeta contiene un ejemplo de automatización web sobre la página de pruebas https://www.saucedemo.com/.
+Esta carpeta incluye un archivo SQL con consultas sobre tablas simuladas.
 
-## Flujo automatizado
-- Login con usuario estándar
-- Agregar un producto al carrito
-- Verificar que esté agregado
+## Tablas ficticias
+- `usuarios`
+- `pedidos`
 
-## Archivos
-- `test_login_carrito.js` (o `.java`): script automatizado
+## Consultas incluidas
+- Cantidad de pedidos por usuario
+- Pruebas de límite (usuarios sin pedidos, muchos pedidos, etc.)
