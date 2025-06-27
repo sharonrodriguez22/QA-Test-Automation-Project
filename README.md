@@ -1,14 +1,11 @@
-# Pruebas de API con Postman
+# Pruebas de automatización web con Selenium
 
-Esta carpeta contiene una colección de pruebas realizadas sobre la API pública ReqRes (https://reqres.in).
+Esta carpeta contiene un ejemplo de automatización web sobre la página de pruebas https://www.saucedemo.com/.
+
+## Flujo automatizado
+- Login con usuario estándar
+- Agregar un producto al carrito
+- Verificar que esté agregado
 
 ## Archivos
-- `coleccion.json`: colección exportada de Postman
-- `resultado_ejecucion.html`: resultado de ejecución usando Newman
-
-## Instrucciones
-1. Importar la colección en Postman
-2. Ejecutar desde Postman o por consola con Newman:
-```
-newman run coleccion.json -r html
-```
+- `test_login_carrito.js` (o `.java`): script automatizado
